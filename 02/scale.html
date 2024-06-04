@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tranform: scale</title>
+    <style>
+.container {
+        width: 800px;
+        height: 200px;
+        margin: 20px auto;
+      }
+      .origin {
+        width: 100px;
+        height: 100px;
+        border: 1px solid #000;
+        float: left;
+        margin: 40px;
+      }
+      .origin > div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+      .scalex:hover {
+        /* x축으로 (가로) 150% 늘어남 */
+        transform: scaleX(150%);
+      }
+      .scaley:hover {
+        /* y축으로 (세로) 150% 늘어남 */
+        transform: scaley(1.5);
+      }
+      .scale:hover {
+        /* xy축으로 (가로세로)) 150% 늘어남 */
+        transform: scale(0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="origin">
+        <div class="scalex"></div>
+      </div>
+      <div class="origin">
+        <div class="scaley"></div>
+      </div>
+      <div class="origin">
+        <div class="scale"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  height: 0;
+  box-sizing: border-box;
+}
+
+.contents{
+  position: relative;
+  background: url("/images/image.jpg") center no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 120px;
+  text-shadow: 5px 5px 0 gray;
+}

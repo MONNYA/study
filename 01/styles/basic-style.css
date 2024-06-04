@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  color: red;
+}
+.bg {
+  background-color: aqua;
+}
+.accent {
+  padding: 5px;
+  border: 1px solid #000;
+}
+h1,
+p {
+  text-align: center;
+}
+#container {
+  background-color: burlywood;
+}
+.container {
+  background-color: aquamarine;
+}
